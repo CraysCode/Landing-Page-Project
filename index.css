@@ -1,89 +1,78 @@
-body {
-background-color: rgb(22, 70, 125);
-padding: 0;
-margin: 0;
-text-align: center;
-font-family: 'Open Sans';
-color: ivory;
+.header-logo img{
+    height: 80px;
+    width: 80px;
+    margin-left: 0%;
 }
-
-.container {
+body{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-family: 'Open Sans';
+}
+.container{
     display: flex;
     flex-direction: column;
 }
-
-.braves-nav{
+.bama-nav{
     display: flex;
-    color: ivory;
-    background-color: rgb(22, 70, 125);
-    padding: 20px 0px 20px 100px;
     align-items: center;
+    background-color: #a7042d;
+    padding: 20px 0px 20px 100px;
     justify-content: space-evenly;
+    color: white;
 }
-.header-logo img {
-    width: 90px;
-    height: 90px;
-    margin-left: auto;
-}
-.header-link {
+.header-link{
     display: flex;
     margin: left;
     padding: 0px 100px 0px 0px;
 }
-.header-link a {
-    text-decoration: none;
-    color: ivory;
+.header-link a{
+    color: whitesmoke;
     font-size: 20px;
-    padding: 10px;
-    font-family: 'Open Sans';
+    padding: 15px;
+    font-family:'Open Sans';
 }
-.braves-info {
+.content-info{
     display: flex;
-    background-color: rgb(22, 70, 125);
-    align-items: center;
     justify-content: center;
-    padding: 90px
-}
-.braves-content{
-    background-color: ivory;
-    color: rgb(22, 70, 125);
-}
-.content-info {
-    display: flex;
     align-items: center;
-    justify-content: center;
     padding: 90px;
     font-size: 18px;
     gap: 40px;
-    background-color: ivory;
-    color: rgb(22, 70, 125);
+    background-color: white;
     flex-basis: 50px;
 }
-.content-info img {
-    width: 250px;
+.content-info a{
+    color:#a7042d
+}
+.content-info img{
     height: 200px;
+    width: 250px;
 }
-.braves-quote {
-    flex-basis: 200px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-right: 50px;
+.bama-body{
+   background-color:#a7042d;
+   color: whitesmoke;
+   font-size: 18px;
+}
+.bama-content{
+    background-color:white;
+    color: #a7042d;
     font-size: 18px;
 }
-.signup{
-    display: flex;
-    flex-direction: column;
+.quote{
+    background-color:#a7042d;
+    color: whitesmoke;
     font-size: 18px;
-    font-family: 'Open Sans';
-    color: ivory;
 }
-.braves-footer{
-    font-size: 14px;
-    color: ivory;
-    font-weight: lighter;
+.donate{
+    background-color:#a7042d;
+    color: whitesmoke;
+    font-size: 18px;
 }
-.sign-button button{
-    background-color: ivory;
-    font-size: 16px;
+.footer{
+    background-color:#a7042d;
+    color: whitesmoke;
+    font-size: 18px;
 }
